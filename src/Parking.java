@@ -1,7 +1,7 @@
 import Vehicle.Car;
 
 public class Parking implements ParkingCars{
-    private Car cars[];
+    private Car[] cars;
 
     public Car[] getCars() {
         return cars;

@@ -2,8 +2,8 @@ import Vehicle.Airplane;
 import Vehicle.Helicopter;
 
 public class Airport {
-    private Airplane airplanes[];
-    private Helicopter helicopters[];
+    private Airplane[] airplanes;
+    private Helicopter[] helicopters;
     private Parking parking;
 
     public Airplane[] getAirplanes() {
